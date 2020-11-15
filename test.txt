@@ -4,4 +4,13 @@ y estoy aprendiendo a utilizar git y github
 
 segunda modificacion
 
-hola, hola, hola 
+hola, hola, hola
+
+17:13
+
+git init
+git add (nombre)
+git commit -m "comentario"
+git status
+git checkout (nombre de la rama)//cambia de rama
+
