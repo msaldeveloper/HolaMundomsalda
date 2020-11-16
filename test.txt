@@ -8,6 +8,7 @@ hola, hola, hola
 
 17:13
 
+git
 git init
 git add (nombre)
 git commit -m "comentario"
