@@ -14,4 +14,4 @@ git add (nombre)
 git commit -m "comentario"
 git status
 git checkout (nombre de la rama)//cambia de rama
-
+Saludo a la primera generacion de python
