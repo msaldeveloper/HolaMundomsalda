@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* }
+.flex-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh; /* viewport height 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.shape{
+    width: 200px;
+    height: 200px;
+}
+.shape.color1{
+    background-color: pink;
+}
+.shape.color2{
+    background-color: blue;
+}
+.shape.color3{
+    background-color: red;
+}
+
+@media only screen and (min-width:768px){
+    .flex-box{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    } */}
+.principal{
+    position:static;
+}
+.seccion-superior {
+    background-color: orange;
+    height:50vh;
+}
+.seccion-inferior {
+    background-color: red;
+    height:50vh;
+}
+.formulario{
+    display: flex;
+    background-color:green;
+    border: solid black 2px;
+    width: 200px;
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+}
+.formulario ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+.boton-enviar{
+    margin: 30px;
+    background-color: blue;
+    border-radius: 10%;
+    color: white;
+    width:100px;
+    height:30px;
+}
+
+@media only screen and (min-width:768px){
+    .formulario{
+    display: flex;
+    background-color:green;
+    border: solid black 2px;
+    width: 200px;
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+    }
