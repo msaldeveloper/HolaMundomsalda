@@ -38,8 +38,11 @@
     position:static;
 }
 .seccion-superior {
-    background-color: orange;
+    background-image: url(../desing/wolf.jpg);
     height:50vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: none;
 }
 .seccion-inferior {
     background-color: red;
@@ -80,5 +83,5 @@
     width: 200px;
     position: absolute;
     top: 40vh;
-    left: 50vw;
+    left: 45vw;
     }
