@@ -49,23 +49,29 @@
     height:50vh;
 }
 .formulario{
+    border-radius: 20%;
     display: flex;
     background-color:green;
-    border: solid black 2px;
+    border: solid white 2px;
     width: 200px;
     position: absolute;
     top: 35vh;
     left: 35vw;
 }
 .formulario ul{
+    padding: 5px;
+    margin:5px;
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
 
     
 
 }
+.titulo{
+    text-align: center; 
+ }
 .boton-enviar{
     margin: 30px;
     background-color: blue;
@@ -79,9 +85,12 @@
     .formulario{
     display: flex;
     background-color:green;
-    border: solid black 2px;
+    border: solid white 2px;
     width: 200px;
     position: absolute;
     top: 40vh;
     left: 45vw;
+    }
+    .titulo{
+       text-align: center; 
     }
